@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Minecraft Info: Home</title>
+        <meta charset = "UTF-8">
+        <meta name = "description" content = "This is the homepage of a website which contains information about minecraft">
+        <meta name = "keywords" content = "mincraft, creeper, zombie, skeleton, mobs, spawn">
+        <meta name = "author" content = "Saim Irfan">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>   
+        
+        <div id="header">
+            <h2>minecraftinfo.com</h2>
+        </div>
+
+        <div id="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Premium</a></li>
+                <li><a href="">Sign In</a></li>
+                <li><a href="">Sign Up</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar">
+            <p class="sidebar-text">
+                Image gallery
+            </p>
+            <table>
+                <tr>
+                    <td><a href="images/zombie.png" target="_blank"><img src="images/zombie.png"></a></td>
+                    <td><a href="images/creeper.png" target="_blank"><img src="images/creeper.png"></a></td>
+                    <td><a href="images/skeleton.png" target="_blank"><img src="images/skeleton.png"></a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="main">
+            <h1>Welcome!!!</h1>
+            <p>Welcome to the basic minecraft info website. Here you will find some information which is related to the game we know and love;
+            Minecraft!!!
+            </p>
+            <p>You should know that this blog can no way provide every information related to minecraft.</p>
+            <p>Minecraft is a huge brand and there are many many things which are associated with it. We lack resources and we also
+                lack time to cover everything related to the game.
+            </p>
+            <p>But, this does not mean that we will not continue to update the resources as time passes by. It is and will be our duty to
+                continue maintain and add new data into the database.
+            </p>
+            <p>I hope you enjoy the experience!!!</p>
+
+            <h2>Lets Start</h2>
+            <p>First thing First, We will start with information of some monsters present in the game. We will be covering the major monsters and
+                not the ity bity ones. Here we go.
+            </p>
+
+
+
+            <div id="content">
+            <h3>Monsters:</h3>
+            <ul class="anchor-list">
+                <li><a href="#zombie" onclick="display('zombie')">Zombie</a></li>
+                <li><a href="#creeper" onclick="display('creeper')">Creeper</a></li>
+                <li><a href="#skeleton" onclick="display('skeleton')">Skeleton</a></li>
+            </ul>
+
+            <!-- Zombie Section -->
+            <div id="zombie">
+            <h2><a name="zombie">Zombie:</a> </h2>
+            <p>As the Sun sets over the horizon. You farantically look for sheeps and the woods and the coals so that you can spend your first
+                night peacefully but, looks like it is too late. You hear groans in the distance and you know you are gonna have a tough night.</p>
+
+            <p>These brainless monsters have been around minecraft for the longest time. With the capability of affecting the villagers and
+                turning them into undeads is what makes them quite special. Although, if you are stacked up and have an armor and sword made
+                iron, you dont have to wory about them that much, but this does not mean that you can sleep peacefully too. If they come in numbers
+                then oh my you are up for a very very tough night.
+            </p>
+
+            <p>If you have your eyes on a particular village then make sure that you have secured it properly or else these guys will swarm it
+                in the night, and all you will find in the morning burnt flesh and sadness.
+            </p>
+
+            <p>Spawning beneath the light level of 7, they are harmed from sunlight and will do anything to stay away from it. Make sure that
+                your base is properly lit up or elsee......
+            </p>
+            </div>
+            <!-- Creeper Section -->
+
+            <div id="creeper">
+            <h2><a name="creeper">Creeper: </h2></a>
+            <p>You are furiously mining deep down into the ground. You have been working hard to get the required materials and finally you
+                are about to reach the vertical level 11. You cannot wait to get your hands on those sweet sweet diamond. Suddenly you hear
+                a sound, a sound which is quit familiar, a sound which resembles something frying in a pan. WAITTTTTT.....BOOOOM. It is too late.
+                What is left behind is your tears and blood.
+            </p>
+
+            <p>My friend, that is right, you have just encountered Creeper.</p>
+            <p>These green, sneaky, noisless four legged creature are probably the most hated and the most loved monsters at the same time.
+                With the ability to explode, they are a nightmare for every person playing the game. Wether you have just decorated your sweet home
+                or you have constructed a nice pen for your cows, these guys do not give a damn.
+            </p>
+
+            <p>What makes them special is their ability to noislessly sneak up behind the player and then explode. Destroying every thing in
+                a radius of 5 to 6 blocks. They are not affected by sunlight and can be spotted easily in mornings and noons, and probably
+                this is the reason why everybody is scared of them.
+            </p>
+            </div>
+
+
+
+            <!-- Skeleton section -->
+            <div id="skeleton">
+            <h2><a name="skeleton">Skeleton: </h2></a>
+            <p>These bony figures with bows in thier hands might be one of the coolest mobs in mineraft. Some would say that these guys might
+                be the most OP creatures of minecraft. What makes them special is thier skill of bowing and arrowing. With the range of almost
+                10 blocks skeletons can easily ruin someones day.
+            </p>
+            <p>They come in 2 Variants:
+                <ul class="list">
+                    <li>Normal</li>
+                    <li>Snowy</li>
+                </ul>
+            </p>
+
+            <p>These guys are also affected by sunlight and will only spawn below light level of 7. These guys have a tough life because
+                they not only have to defend themselves from the sunlight but also wolves too. They make a tasty meal for the wolves that is
+                why they have to run for thier lives when they see one.
+            </p>
+            <p>They are very skilled in thier jobs and sometimes are so accurate that they will leave you mind blown.</p>
+            </div>
+            </div>
+
+            <!-- <button id="hideButton" style="display: none;" onclick=hide()>Hide</button> -->
+
+            <!-- Table containg info -->
+            <h2>Mobs Table</h2>
+            <table id = "mob-table">
+                <tr>
+                    <th>Mob</th>
+                    <th>Skill</th>
+                    <th>Weakness</th>
+                    <th>Appearance</th>
+                    <th>Sounds</th>
+                </tr>
+                <tr>
+                    <td>Zombie</td>
+                    <td>Converts villagers into zombies</td>
+                    <td>Sunlight</td>
+                    <td><img id="image1" src = "images/zombie.png" height = "100" width = "100" onmouseover="newPic('creeper', 'image1')" onmouseout="oldPic('zombie', 'image1')"></td>
+                    <td> 
+                        <audio controls> 
+                            <source src = "sounds/zombie.mp3">
+                            Zombie
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Creeper</td>
+                    <td>Explodes and harm in 5 block radius</td>
+                    <td>Cats and ocelots</td>
+                    <td><img id="image2" src="images/creeper.png" height="100" width="100" onmouseover="newPic('skeleton', 'image2')" onmouseout="oldPic('creeper', 'image2')"></td>
+                    <td> 
+                        <audio controls> 
+                            <source src = "sounds/creeper.mp3">
+                            Creeper
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Skeleton</td>
+                    <td>Ranged attacks using a bow</td>
+                    <td>Sunlight, Wolves</td>
+                    <td><img id="image3" src="images/skeleton.png" height="100" width="100" onmouseover="newPic('zombie', 'image3')" onmouseout="oldPic('skeleton', 'image3')"></td>
+                    <td> 
+                        <audio controls> 
+                            <source src = "sounds/skeleton.mp3">
+                            Skeleton
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+        
+            <p>I have linked an introductory video of minecraft just so you can have a nice know how. Have a look down below</p>
+
+            <iframe style="position: relative;" width="640" height="360" src="https://www.youtube.com/embed/MmB9b5njVbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="anchor-list"><a href="index.html">Home</a></div>
+
+        </div>  
+        <div id="content-form">
+            <p>Get exclusive content if you are over 18!!!</p>
+
+            <form action="https://minecraft.gamepedia.com/Minecraft_Wiki" method="get" onsubmit="return validateForm()">
+                <fieldset>
+                    Username: <br>
+                    <input type = "text" id="nameBox"> <br>
+
+                    Age: <br>
+                    <input type = "number" min = "18" max = "100" id="age"> <br>  
+
+                    Do you want the extra exclusive content: <br>
+                    <label for = "yes">Yes</label>
+                    <input type = "radio" id = "yes" name = "yesno" value = "">
+                    &nbsp&nbsp
+                    <label for = "no">No</label>
+                    <input type = "radio" id = "no" name = "yesno" value = "">
+                    <br>
+                    <br>
+                    Your favourite mob in minecraft: <br>
+                    <select>
+                        <option>Zombie</option>
+                        <option>Creeper</option>
+                        <option>Skeleton</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type = "Submit" value = "Get now!">
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="footer">
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            &copy; 2020 minecraftinfo.com
+        </div>
+    </body>
+</html>

@@ -1,0 +1,277 @@
+body {
+    background-image: url(images/bg.png);
+    color: #333185;
+    font-size: 15px;
+    font-family: Verdana, Arial, Geneva, Arial Black;
+    /* border: 2px solid burlywood; */
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #c00d0d;
+    font-size: 175%;
+    font-family: Helvetica;
+}
+
+h2 {
+    color: #c00d0d;
+    font-size: 150%;
+    font-family: Helvetica;
+}
+
+h3 {
+    color: #c00d0d;
+    font-size: 125%;
+    font-family: Helvetica;
+}
+
+form {
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+iframe {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Content Divs */
+#zombie, #creeper, #skeleton {
+    display: none;
+}
+
+/* End Content Divs */
+
+
+/* Header */
+
+#header {
+    background-color: #9391da;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#header h2 {
+    color: #333185;
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: 250%;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%)
+}
+
+/* End Header */
+
+/* Navbar Section */
+
+#navbar ul {
+    background-color: #69fd64;;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar li a {
+    margin: 0px 30px 0px 30px;  
+    color: #311f0f;;
+    text-decoration: none;
+    padding: 1em 5em;
+    border-radius: 5px;
+}
+
+#navbar li a:hover {
+    color: #ffff;
+    background-color: #094b0c;
+}
+
+/* End Navbar Section */
+
+/* Main Div */
+
+.main {
+    background-color: #f5c528;
+    font-size: 115%px;
+    margin: 10px 380px 10px 10px;
+    padding: 20px;
+    border-radius: 5px;
+    opcity: 0.8;
+}
+
+/* End Main Div */
+
+/* Side Bar */
+
+.sidebar {
+    background-color: #f5c528;
+    margin: 0px 10px 10px 10px;
+    padding: 20px;
+    float: right;
+    width: 320px;
+    border-radius: 5px;;
+    border: 2px solid #f8c10c;
+}
+
+.sidebar table {
+    padding: 10px;
+}
+
+.sidebar img {
+    /* text-align: center; */
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.4;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.sidebar img:hover {
+    opacity: 1;
+}
+
+.sidebar-text {
+    color: #5f3915;
+    font-size: 110%;
+    text-align: center;
+    margin: 5px;
+}
+
+/* End Side Bar */
+
+/* Anchor Lists Design */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.anchor-list li a, div.anchor-list a {
+    color: black;
+    background-color: blanchedalmond;
+    display: block;
+    margin-left: 25px;
+    margin: 10px;
+    padding: 5px;  
+    text-align: center;
+    text-decoration: none;
+    width: 80px;
+    border: 2px solid black;
+}
+
+.anchor-list li a:hover, div.anchor-list a:hover {
+    color: yellow;
+    background-color: green;
+    border: 2px solid yellow;
+}
+
+/* End Anchor Lists Design */
+
+/* Lists Design */
+.list li {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    margin-left: 25px;;
+    margin: 10px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+/* End Lists Design */
+
+/* Mob Table */
+#mob-table {
+    font-size: 100%;
+    /* line-height: 10px; */
+    border: thick groove silver;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mob-table th {
+    color: black;
+    text-align: center;
+    font-size: 110%;
+    border-bottom: 2px solid white;
+    padding: 7px;
+}
+
+#mob-table td {
+    text-align: center;
+    padding: 7px;
+    border-right: 2px solid white;
+    overflow: auto;
+}
+
+#mob-table img {
+    display: block;
+    height: 90px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+/* End Mob Table */
+
+/* Content Form */
+
+#content-form {
+    color: #311f0f;
+    background-color: #69fd64;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* End Content Form */
+
+/* Footer Section */
+
+#footer {
+    color: #333185;
+    background-color: #9391da;
+    /* height: 50px; */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 90%; 
+}
+
+#footer ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer li a {
+    color: #333185;
+    text-decoration: none;
+    padding: 1em 4em;
+    margin: 0px 5px;
+}
+
+#footer li a:hover {
+    color: #ffff;
+    background-color: #333185;;
+}
+
+/* End Footer Section */
